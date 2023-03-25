@@ -1,0 +1,12 @@
+.Calender {
+  width: 60%;
+  height: 30%;
+  margin: auto;
+}
+
+.MyMeeting .Calender {
+  float: right;
+  width: 100%;
+  height: 30%;
+  margin: auto;
+}

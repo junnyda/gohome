@@ -1,0 +1,58 @@
+{
+  "order": [
+    {
+      "no": 1,
+      "order_num": "1",
+      "date": "2023-02-23",
+      "location": "서울",
+      "attendance": [
+        {
+          "no": 1,
+          "nick": "둘리",
+          "check": true
+        },
+        {
+          "no": 2,
+          "nick": "마이콜",
+          "check": true
+        }
+      ]
+    },
+    {
+      "no": 2,
+      "order_num": "2",
+      "date": "2023-02-24",
+      "location": "서울",
+      "attendance": [
+        {
+          "no": 1,
+          "nick": "둘리",
+          "check": false
+        },
+        {
+          "no": 2,
+          "nick": "마이콜",
+          "check": true
+        }
+      ]
+    },
+    {
+      "no": 3,
+      "order_num": "3",
+      "date": "2023-02-25",
+      "location": "서울",
+      "attendance": [
+        {
+          "no": 1,
+          "nick": "둘리",
+          "check": false
+        },
+        {
+          "no": 2,
+          "nick": "마이콜",
+          "check": false
+        }
+      ]
+    }
+  ]
+}

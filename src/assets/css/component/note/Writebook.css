@@ -1,0 +1,99 @@
+.writebook {
+  margin-right: auto;
+  margin-left: auto;
+}
+.writemain {
+  border: solid;
+  border-color: #e6e0e0;
+  border-radius: var(--primer-borderRadius-medium, 6px);
+  border-style: solid;
+  border-width: var(--primer-borderWidth-thin, 1px);
+  border-radius: 20px;
+  height: 90%;
+}
+/* 선택된 책을 강조하는 스타일 */
+.book.selected {
+  background-color: #e6f2ff;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+  border-radius: 20px;
+}
+
+.book.selected:hover {
+  border: 2px solid #0056b3;
+  background-color: #cbe5ff;
+  cursor: pointer;
+  
+}
+
+/* 마우스를 올려놓을 때 테두리가 생기는 스타일 */
+.book:hover {
+  background-color: #f8f9fa;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* 책 제목에 대한 스타일 */
+.book h5 {
+  margin: 10px;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 150px;
+}
+.book {
+  margin: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+.book img {
+     height: auto;
+    border-radius: 4px;
+    margin: 20px;
+  }
+  .cs {
+    background-color: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .title-input{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+  .booksearchbox{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f8f9fa;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 20px auto;
+  }label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+    margin: 20px
+  }

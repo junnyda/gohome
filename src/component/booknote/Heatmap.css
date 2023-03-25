@@ -1,0 +1,49 @@
+.react-calendar-heatmap .color-scale-0 { fill: #c4e6f7; }
+.react-calendar-heatmap .color-scale-4 { fill: #4fc3f7; }
+.react-calendar-heatmap .color-scale-8 { fill: #039be5; }
+.react-calendar-heatmap .color-scale-12 { fill: #0004f8; }
+
+.legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .legend-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .color-box {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+  }
+  
+  .color-box.color-scale-0 {
+    background-color:#c4e6f7;
+  }
+  
+  .color-box.color-scale-4 {
+    background-color:#4fc3f7;
+  }
+  .color-box.color-scale-8 {
+    background-color:  #039be5;
+  }
+  .color-box.color-scale-12 {
+    background-color: #0004f8;
+  }
+  
+  .color-text {
+    font-size: 14px;
+  }
+  .dsds {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+  }

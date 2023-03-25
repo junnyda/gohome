@@ -1,0 +1,170 @@
+.booknote {
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.booknotelay {
+  grid-gap: var(--Layout-gutter);
+  grid-auto-flow: column;
+  grid-template-columns: auto 0 minmax(
+      0,
+      calc(100% - var(--Layout-sidebar-width) - var(--Layout-gutter))
+    );
+  display: grid;
+}
+.booknote_sidebar {
+  --Layout-gutter: 24px;
+  display: block;
+  font-size: 20px;
+  /* text-align: center; */
+}
+.bookcontainer {
+  background-color: var(--color-canvas-default);
+  border-color: #e6e0e0;
+  border-radius: var(--primer-borderRadius-medium, 6px);
+  border-width: var(--primer-borderWidth-thin, 1px);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  gap: 15px;
+}
+
+.bookcontainer::before,
+.glassbox::before {
+  content: '';
+  position: relative;
+  height: 1px;
+
+  background-color: red;
+  animation: border-slide 5s linear infinite;
+}
+
+@keyframes border-slide {
+  0% {
+    width: 0%;
+    left: -1px;
+  }
+  50% {
+    width: 10%;
+    left: 0;
+  }
+  100% {
+    width: 0%;
+    left: 100%;
+  }
+}
+
+.chart_container {
+  width: 400px;
+  height: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.booknote_mian {
+  display: block;
+  --Layout-sidebar-width: 296px;
+  border-bottom: 1px solid var(--color-border-default);
+  box-shadow: none;
+  height: 500px;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.box_body {
+  border-bottom-left-radius: var(--primer-borderRadius-medium, 6px);
+  border-bottom-right-radius: var(--primer-borderRadius-medium, 6px);
+  margin-bottom: calc(var(--primer-borderWidth-thin, 1px) * -1);
+  width: 400px;
+  height: 100%;
+  display: block;
+}
+
+.box_body h2 {
+  text-align: center;
+  height: 50px;
+  margin: 10px;
+}
+
+.book_goal {
+  width: 400px;
+  margin-left: 10px;
+}
+
+.avatar {
+  border-radius: 50% !important;
+  width: 300px;
+  height: 300px;
+  display: flex;
+}
+.cardname {
+  padding-top: var(--base-size-16, 16px) !important;
+  padding-bottom: var(--base-size-16, 16px) !important;
+}
+.carduser {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.25;
+}
+
+.booknote-select {
+  font-family: 'Dongle', sans-serif;
+
+  font-size: larger;
+
+  justify-content: space-between;
+}
+.tumb.img {
+  max-width: 170px;
+  height: auto;
+  width: 100%;
+  min-width: 100px;
+}
+.glassbox {
+  margin-top: 18px;
+
+  --Layout-sidebar-width: 296px;
+  background-color: var(--color-canvas-default);
+  border-color: #e6e0e0;
+  border-radius: var(--primer-borderRadius-medium, 6px);
+
+  border-width: var(--primer-borderWidth-thin, 1px);
+  border-radius: 20px;
+  height: 170px;
+  width: 100%;
+}
+
+.tumb {
+  width: 200px;
+}
+.booklist1 {
+  display: flex;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e6e0e0;
+}
+.Booknote_booknotelisttitle1 {
+  border: 3px solid red;
+  /* width: 900px;
+  border-style: solid;
+  border-width: var(--primer-borderWidth-thin, 1px);
+  border-radius: 20px;
+  border-color: #aaa7a7;
+  margin-right: 30px;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1); */
+}
+.booknotelisttitle1:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.page_nav {
+  height: 100px;
+  text-align: center;
+}
+
+.page_nav nav {
+  display: inline-block;
+}

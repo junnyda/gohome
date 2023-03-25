@@ -1,0 +1,87 @@
+.rank {
+  opacity: 0; /* 처음에는 안 보이도록 설정 */
+  animation: fadeIn 1s forwards; /* 1초 동안 서서히 나타나도록 애니메이션 적용 */
+
+
+}
+
+.ranking {
+    opacity: 0; /* 처음에는 안 보이도록 설정 */
+    animation: fadeIn 1s forwards; /* 1초 동안 서서히 나타나도록 애니메이션 적용 */
+    animation-delay: 0.5s;
+    animation-duration: 1s; /* 애니메이션의 지속 시간을 0.5초로 설정 */
+  }
+  .talbel123 {
+    opacity: 0; /* 처음에는 안 보이도록 설정 */
+    transition: opacity 1s ease-in-out; /* 1초 동안 서서히 나타나거나 사라지도록 트랜지션 적용 */
+  }
+  
+  .talbel123.show {
+    opacity: 1; /* 보이게 설정 */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @import url('https://fonts.googleapis.com/css?family=Special+Elite');
+
+  
+ 
+  blockquote {
+
+    font-family: 'Special Elite', cursive;
+    background: #fffdf5;
+    color: #3f3f5a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    font-size: 2rem;
+    max-width: 600px;
+    line-height: 1.4;
+    position: relative;
+    margin: 0;
+    padding: .5rem;
+  }
+  
+  blockquote:before,
+  blockquote:after {
+    position: absolute;
+    color: #f1efe6;
+    font-size: 8rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  blockquote:before {
+    content: '“';
+    left: -5rem;
+    top: -2rem;
+  }
+  
+  blockquote:after {
+    content: '”';
+    right: -5rem;
+    bottom: 1rem;
+  }
+  
+  cite {
+    line-height: 3;
+    text-align: left;
+  }
+
+  .card-1 {
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  .card-1:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  

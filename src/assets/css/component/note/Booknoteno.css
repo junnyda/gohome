@@ -1,0 +1,80 @@
+.post-view-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    
+  }
+  
+  .post-view-row {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .post-view-row label {
+    width: 100px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .post-view-go-list-btn {
+    display: block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .post-view-go-list-btn:hover {
+    background-color: #0069d9;
+  }
+  .bookspan{
+    display: block;
+    line-height: 20px;
+    color: #666;
+    margin: 15px;
+ 
+  }
+  .em{
+    font-style: normal;
+  }
+ 
+  .bookviewcontent{
+    border: solid;
+    border-color: #e6e0e0;
+    border-radius: var(--primer-borderRadius-medium, 6px);
+    border-style: solid;
+    border-width: var(--primer-borderWidth-thin, 1px);
+    opacity: 0; /* 처음에는 안 보이도록 설정 */
+    animation: fadeIn 2s forwards; /* 1초 동안 서서히 나타나도록 애니메이션 적용 */
+    animation-delay: 0.5s;
+    animation-duration: 2s; /* 애니메이션의 지속 시간을 0.5초로 설정 */
+  }
+.bookviewtitle{
+  opacity: 0; /* 처음에는 안 보이도록 설정 */
+  animation: fadeIn 2s forwards; /* 1초 동안 서서히 나타나도록 애니메이션 적용 */
+  animation-delay: 0.5s;
+  animation-duration: 2s; /* 애니메이션의 지속 시간을 0.5초로 설정 */
+}
+  .bookviewnotelisttitle1{
+    border-style: solid;
+    border-width: var(--primer-borderWidth-thin, 1px);
+    border-radius: 20px;
+    border-color: #aaa7a7;
+  
+    font-family: 'Dongle', sans-serif;
+    opacity: 0; /* 처음에는 안 보이도록 설정 */
+    animation: fadeIn 2s forwards; /* 1초 동안 서서히 나타나도록 애니메이션 적용 */
+    animation-delay: 0.5s;
+    animation-duration: 2s; /* 애니메이션의 지속 시간을 0.5초로 설정 */
+    font-size: larger;
+  }
+  .wirtenoteimg{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .wirtenoteimg:hover{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
